@@ -1,0 +1,132 @@
+//========================================= Space Invaders =========================================
+
+// Space Invaders is a classic arcade game from the 80 s.
+// The player aims to shoot an invading alien armada, before it reaches the planet 's surface using a mounted gun turret.
+
+// The player can only move left or right.
+// The aliens also move from left to right, and also down each time the reach the side of the screen.
+// The aliens also periodically drop bombs towards the player.
+
+// Once the player has destroyed a wave of aliens, the game starts again.
+// The aim is to achieve the highest score possible before either being destroyed by the aliens,
+// or allowing them to reach the planet 's surface.
+
+
+
+
+// ************************   Need    ************************
+
+// Grid with edges 
+// Spaceship 🚀 png
+// Aliens 👾👾👾 png
+// Missile Space ship png
+//Missle Aliens png
+
+
+🚀
+Spaceship
+// ------ move with arrow keys- eventlistener key... wire up with grid position (function with switch or if else)
+// shooot with space button
+//------- staying bottom of the grid 
+// 3 life
+// if shooted by 👾 -1 ❤️
+//  3X❤️ after Game Over
+
+👾 Aliens
+// Move by function (loop class switch on/off )
+// Row by row down left right
+// Shoot randomly  every 1s 
+// if shooted by spaceship disappear ()
+
+
+Missile
+//🚀 moving up column by function (loop class siwtch on/off)
+
+// 👾 moving up column by function (loop class siwtch on/off)
+
+
+
+
+
+// ************************   Starter Page   ************************
+
+//explain how it works
+// button to start
+//high scoore
+
+
+// // ***************************************   Display   
+//   Scoore : actual                   ❤️ X3               
+
+
+//         |       👾👾👾👾👾👾👾👾       
+//         |       👾👾👾👾👾👾👾👾 =>     
+//         |       👾👾👾👾👾👾👾👾
+//         V         *    ^
+//                       *   ^      *
+//                    ^
+//                  <=    🚀   =>
+
+
+
+// ************************   Scenario   ************************
+
+
+Shoot()
+
+// move missiles
+// setTimeout loop 1s or less set ineral hit the wall by alien
+
+
+// if 🚀 shoot an  👾 add  the point to the score counter with the points what the alien has set up
+// remove the 👾 from the grid
+//
+// 👾 shoot the 🚀 -❤️ life 
+
+collisionDetection()
+    // by position 
+
+
+Win!()
+    // If the 🚀 shoot all of 👾  before reach the bottom
+
+
+Lose!()
+    //  If the 👾 shooted 3X (each time -❤️)
+    //  If the 👾 reach the bottom row
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// music&fx ()
+
+// backgroundmusic
+// shoot fx spaceship 
+// shoot fx aliens
+// collision fx 
+// game over music
+// winner music
